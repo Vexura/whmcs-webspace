@@ -119,7 +119,7 @@ final class Api
 
             return [(int) curl_getinfo($handle, CURLINFO_RESPONSE_CODE), $responseHeaders, $raw];
         } finally {
-            curl_close($handle);
+            unset($handle);
         }
     }
 }
