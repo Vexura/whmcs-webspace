@@ -1,0 +1,15 @@
+{
+  "name": "Vexura Webspace",
+  "version": "1.0.0-rc.1",
+  "module": "vexurawebspace",
+  "type": "servers",
+  "php": ">=8.1",
+  "extensions": [
+    "curl",
+    "json"
+  ],
+  "api": "https://api.vexura.eu/api/v1",
+  "installationPath": "modules/servers/vexurawebspace",
+  "billing": "prepaid",
+  "requiresBackendSubscriptionFix": false
+}
